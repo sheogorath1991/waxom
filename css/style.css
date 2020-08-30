@@ -89,7 +89,7 @@ body {
 }
 
 .header-bottom {
-  margin-top: 214px;
+  margin-top: 238px;
 }
 
 .header-bottom__slider-item {
@@ -157,7 +157,7 @@ body {
 .slick-dots {
   display: flex;
   justify-content: center;
-  margin-top: 225px;
+  margin-top: 255px;
   padding-bottom: 30px;
 }
 
