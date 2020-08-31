@@ -206,6 +206,7 @@ body {
 .categories__box {
   text-align: center;
   width: 268px;
+  cursor: pointer;
 }
 
 .categories__box:hover .categories__box-text::after {
@@ -251,7 +252,7 @@ body {
   height: 3px;
   bottom: 0;
   left: 100px;
-  background-color: #8c8c8c;
+  background-color: #F1EEE9;
 }
 
 /*font-family: 'Montserrat', sans-serif;*/
