@@ -44,6 +44,7 @@ body {
   background-size: cover;
   background-position: center center;
   min-height: 100vh;
+  margin-bottom: 90px;
 }
 
 .header-top {
@@ -144,6 +145,7 @@ body {
   top: 20%;
   z-index: 5;
   cursor: pointer;
+  outline: none;
 }
 
 .header-bottom__buttonprev {
@@ -182,6 +184,7 @@ body {
   margin: 0 5px;
   padding: 0;
   cursor: pointer;
+  outline: none;
 }
 
 .slick-dots .slick-active button {
@@ -189,6 +192,66 @@ body {
   background-color: transparent;
   width: 15px;
   height: 15px;
+}
+
+.categories {
+  margin-bottom: 80px;
+}
+
+.categories__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.categories__box {
+  text-align: center;
+  width: 268px;
+}
+
+.categories__box:hover .categories__box-text::after {
+  background-color: #B3A494;
+}
+
+.categories__box:hover .categories__box-title {
+  color: #B3A494;
+}
+
+.categories__box-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.categories__box-link img {
+  margin-bottom: 30px;
+}
+
+.categories__box-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: #303030;
+  margin-bottom: 18px;
+}
+
+.categories__box-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #8c8c8c;
+  padding-bottom: 38px;
+  position: relative;
+}
+
+.categories__box-text::after {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 3px;
+  bottom: 0;
+  left: 100px;
+  background-color: #8c8c8c;
 }
 
 /*font-family: 'Montserrat', sans-serif;*/
