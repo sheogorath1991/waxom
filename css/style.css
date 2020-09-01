@@ -768,5 +768,20 @@ body {
 .posts {
   margin-bottom: 140px;
 }
+
+.brand {
+  background-image: url('../images/brand-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 490px;
+}
+
+.brand__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   min-height: 490px;
+}
 /*font-family: 'Montserrat', sans-serif;*/
 /*font-family: 'Raleway', sans-serif;*/
