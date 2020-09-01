@@ -498,5 +498,22 @@ body {
   color: #c7b299;
 }
 
+.excellent {
+  min-height: 695px;
+  background-image: url('../images/excellent-bg.png');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.excellent__inner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 695px;
+  margin-left: auto;
+  width: 655px;
+}
+
 /*font-family: 'Montserrat', sans-serif;*/
 /*font-family: 'Raleway', sans-serif;*/
