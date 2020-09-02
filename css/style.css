@@ -988,5 +988,20 @@ body {
 .footer-bottom__right-text span {
   color: #959595;
 }
+
+.burger__menu {
+  display: none;
+}
+
+.burger__menu span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.burger__menu span + span {
+  margin-top: 4px;
+}
 /*font-family: 'Montserrat', sans-serif;*/
 /*font-family: 'Raleway', sans-serif;*/

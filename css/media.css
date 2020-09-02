@@ -1,0 +1,28 @@
+@media (max-width: 1300px) {
+  .header-top__logo {
+    margin-right: 0;
+  }
+  .header-top__menu {
+    margin-left: 15px;
+  }
+  .header-top__search {
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .burger__menu {
+    display: block;
+    margin-right: 20px;
+  }
+  .header-top__menu {
+    display: none;
+  }
+  .header-top__search {
+    display: flex;
+    align-items: center;
+  }
+  .header-top {
+    justify-content: space-between;
+  }
+}
