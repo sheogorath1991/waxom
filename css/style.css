@@ -804,6 +804,10 @@ body {
   width: 260px;
 }
 
+.footer-box.footer-box__custom {
+  width: 270px;
+}
+
 .footer-box__text {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
@@ -822,6 +826,7 @@ body {
   font-size: 24px;
   color: #fff;
   margin-bottom: 28px;
+  margin-top: 20px;
 }
 
 .footer-box__date {
@@ -891,6 +896,24 @@ body {
   line-height: 20px;
   color: #363636;
   margin-bottom: 25px;
+}
+
+.footer-box__text-twit span {
+  color: #03A8D5;
+}
+
+.footer-box__text-twit .twit-custom {
+  color: #959595;
+}
+
+.footer-box__widgets {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-box__widget {
+  margin-bottom: 5px;
 }
 /*font-family: 'Montserrat', sans-serif;*/
 /*font-family: 'Raleway', sans-serif;*/
