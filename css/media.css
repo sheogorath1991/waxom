@@ -14,6 +14,7 @@
   .burger__menu {
     display: block;
     margin-right: 20px;
+    z-index: 1;
   }
   .header-top__menu-list {
     display: none;
@@ -32,11 +33,15 @@
   .header-top__menu-list.header-top__menu-list--active {
     position: absolute;
     width: 100%;
-    top: 135px;
+    height: 100%;
+    top: 0;
     left: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #292323;
+    padding-top: 135px;
+    z-index: 1;
   }
 }
 

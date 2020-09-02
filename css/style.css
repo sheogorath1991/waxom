@@ -149,7 +149,7 @@ body {
   outline: none;
 }
 
-.header-bottom__buttonprev, {
+.header-bottom__buttonprev {
   left: -150px;
 }
 
