@@ -783,5 +783,114 @@ body {
   align-items: center;
    min-height: 490px;
 }
+
+.footer {
+  min-height: 510px;
+  background-color: #191919;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 510px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+
+}
+
+.footer-box {
+  position: relative;
+  width: 260px;
+}
+
+.footer-box__text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #555555;
+  margin-bottom: 25px;
+}
+.footer-box__text.logo-text {
+  margin-bottom: 30px;
+}
+
+.footer-box__title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 28px;
+}
+
+.footer-box__date {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  color: #363636;
+  margin-bottom: 8px;
+}
+
+.footer-box__link:hover .footer-box__date {
+  color: #fff;
+}
+
+.footer-box__link:hover .footer-box__text {
+  color: #c7b299;
+}
+
+.footer__logo-link {
+  margin-bottom: 30px;
+}
+
+.footer__link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #d1d1d1;
+}
+
+.footer__link::after {
+  content: "";
+  position: absolute;
+  background-image: url('../images/footer-link-arrow.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 5px;
+  height: 8px;
+  bottom: 5px;
+  left: 90px;
+}
+
+.footer-box__link + .footer-box__link {
+  padding-top: 20px;
+  border-top: 1px solid #252525;
+}
+
+.footer-box__twit + .footer-box__twit {
+  padding-top: 20px;
+  border-top: 1px solid #252525;
+}
+
+.footer-box__twit {}
+.footer-box__text-twit {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #555555;
+  margin-bottom: 8px;
+}
+.footer-box__date-twit {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  color: #363636;
+  margin-bottom: 25px;
+}
 /*font-family: 'Montserrat', sans-serif;*/
 /*font-family: 'Raleway', sans-serif;*/
