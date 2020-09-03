@@ -10,11 +10,11 @@ $(function () {
   });
 
   $('.realization__slider').slick({
-    infinite: true,
     slidesToShow: 3,
-    focusOnSelect: true,
-    variableWidth: true,
+    slidesToScroll: 1,
     centerMode: true,
+    variableWidth: true,
+    arrows: false
   });
 
   $('.projects-tab').on('click', function (e) {
