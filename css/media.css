@@ -35,6 +35,9 @@
   .posts__slider .slick-slide {
     margin-right: 20px;
   }
+  .brand__inner img {
+    margin: 30px;
+  }
 }
 
 @media (max-width: 1024px) {
