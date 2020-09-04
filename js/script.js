@@ -74,4 +74,9 @@ $(function () {
     $('.header-top__menu-list').toggleClass('header-top__menu-list--active');
   });
 
+  $('.footer-box__title').on('click', function () {
+      $(this).next().toggleClass('footer-box__title--active'); 
+      $(this).toggleClass('arrow'); 
+  });
+
 });
