@@ -91,6 +91,9 @@
   .realization__slider .slick-track {
     height: 325px;
   }
+  .projects-tab {
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -99,6 +102,9 @@
   }
   .realization__slider .slick-track {
     height: 235px;
+  }
+  .projects-content__item-img img {
+    max-width: 100%;
   }
 }
 

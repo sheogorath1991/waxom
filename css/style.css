@@ -318,6 +318,7 @@ body {
 .projects-tabs__inner {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin-bottom: 40px;
 }
 
@@ -343,7 +344,7 @@ body {
 
 .projects-content__box {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
