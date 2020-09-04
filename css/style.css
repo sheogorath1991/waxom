@@ -518,7 +518,7 @@ body {
   align-items: flex-start;
   min-height: 695px;
   margin-left: auto;
-  width: 655px;
+  max-width: 655px;
 }
 
 .excellent__title {

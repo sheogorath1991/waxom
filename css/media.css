@@ -5,6 +5,9 @@
   .header-bottom__buttonnext {
     right: 0;
   }
+  .excellent {
+    background-position: 240px bottom;
+  }
 }
 
 @media (max-width: 1300px) {
@@ -17,11 +20,17 @@
   .header-top__search {
     margin-left: 25px;
   }
+  .excellent {
+    background-position: 170px bottom;
+  }
 }
 
 @media (max-width: 1200px) {
   .realization__slider .slick-current {
     transform: initial;
+  }
+  .excellent {
+    background-position: 60px bottom;
   }
 }
 
@@ -57,6 +66,9 @@
     background-color: #292323;
     padding-top: 135px;
     z-index: 10;
+  }
+  .excellent {
+    background-image: none;
   }
 }
 
@@ -94,6 +106,15 @@
   .projects-tab {
     margin-top: 10px;
   }
+  .excellent__text {
+    font-size: 14px;
+  }
+  .excellent__list-item {
+    font-size: 14px;
+  }
+  .excellent__list {
+    margin-left: 15px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -105,6 +126,9 @@
   }
   .projects-content__item-img img {
     max-width: 100%;
+  }
+  .excellent__list-item {
+    line-height: 25px;
   }
 }
 
