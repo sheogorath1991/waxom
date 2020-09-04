@@ -201,13 +201,15 @@ body {
 
 .categories__inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .categories__box {
   text-align: center;
   width: 268px;
   cursor: pointer;
+  margin-top: 25px;
 }
 
 .categories__box:hover .categories__box-text::after {
