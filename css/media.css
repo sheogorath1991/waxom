@@ -115,6 +115,9 @@
   .realization__slider .slick-track {
     height: 185px;
   }
+  .video__inner-title {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 360px) {
