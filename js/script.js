@@ -14,7 +14,18 @@ $(function () {
     slidesToScroll: 1,
     centerMode: true,
     variableWidth: true,
-    arrows: false
+    arrows: false,
+    responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 1,
+        centerMode: false,
+        variableWidth: false,
+        arrows: false,
+      }
+    },
+  ]
   });
 
   $('.projects-tab').on('click', function (e) {

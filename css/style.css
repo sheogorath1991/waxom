@@ -1025,5 +1025,8 @@ body {
   align-items: flex-end;
 }
 
+.realization__slider .slick-slide img {
+  max-width: 100%;
+}
 /*font-family: 'Montserrat', sans-serif;*/
 /*font-family: 'Raleway', sans-serif;*/
