@@ -82,6 +82,9 @@
   #arrow {
     height: 30px;
   }
+  .num__inner-box {
+    margin: 30px 30px;
+  }
 }
 
 @media (max-width: 767px) {
