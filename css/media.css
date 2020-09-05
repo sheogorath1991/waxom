@@ -38,9 +38,24 @@
   .brand__inner img {
     margin: 30px;
   }
+  .header-bottom {
+    margin-top: 400px;
+  }
+ .header-top__menu {
+    margin-left: 110px;
+  }
+  .header-top__menu-item + .header-top__menu-item {
+    margin-left: 20px;
+  }
+  .posts-btn.posts-btnprev {
+    left: calc(48% - 10px);
+  }
+  .posts-btn.posts-btnnext {
+    right: calc(48% - 10px);
+  }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .burger__menu {
     display: block;
     margin-right: 20px;
@@ -96,6 +111,9 @@
   }
   .posts-btn.posts-btnnext {
     right: calc(48% - 20px);
+  }
+  .header-bottom {
+    margin-top: 280px;
   }
 }
 
