@@ -286,7 +286,7 @@ body {
 }
 
 .banner img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .realization-top__inner-title,
@@ -1051,6 +1051,22 @@ body {
 
 .footer-box__title {
   pointer-events: none;
+}
+
+.realization__slider-item.slick-slide {
+  outline: none;
+}
+
+.realization__slider-item.slick-slide img {
+  outline: none;
+}
+
+.posts__slider-item.slick-slide {
+  outline: none;
+}
+
+.header-bottom__slider-item.slick-slide {
+  outline: none;
 }
 /*font-family: 'Montserrat', sans-serif;*/
 /*font-family: 'Raleway', sans-serif;*/
