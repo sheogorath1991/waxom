@@ -91,7 +91,13 @@
   .excellent {
     background-image: none;
   }
-}
+  .header-top__menu-item + .header-top__menu-item {
+    margin-top: 50px;
+  }
+  .header-top__menu-item a {
+    font-size: 30px;
+  }
+ }
 
 @media (max-width: 900px) {
   .header-bottom__suptitle {
@@ -132,6 +138,12 @@
   }
   .header-top__menu {
     margin-left: 0;
+  }
+  .header-top__menu-item + .header-top__menu-item {
+    margin-top: 30px;
+  }
+  .header-top__menu-item a {
+    font-size: 20px;
   }
 }
 
