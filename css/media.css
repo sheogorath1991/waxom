@@ -130,6 +130,9 @@
   .header-bottom__text {
     padding: 0 50px;
   }
+  .header-top__menu {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 640px) {
