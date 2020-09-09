@@ -74,6 +74,12 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 300;
+  transition: all .3s;
+}
+
+.header-top__menu-item a:hover {
+  color: #C7B299;
+  transition: all .3s;
 }
 
 .header-top__menu-item.header-top__menu-item--active a {
